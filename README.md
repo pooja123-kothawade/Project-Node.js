@@ -9,13 +9,7 @@ It allows users to check current weather information for any city using the **Op
 ---
 
 ## 📸 Preview
-![screenshot](https://raw.githubusercontent.com/pooja123-kothawade/Project-Node.js/main/preview.png) 
-
-<img width="1193" height="721" alt="run app in bash" src="https://github.com/user-attachments/assets/da41ed47-641a-4ed2-a6b7-4940ac9c1116" >
-<img alt="output1" src="https://github.com/user-attachments/assets/95201292-15d4-4f84-b0f3-b6048575e522" />
-<img  alt="output2" src="https://github.com/user-attachments/assets/68f18064-0fd3-427e-b735-80758a7a207d" />
-<img  alt="image" src="https://github.com/user-attachments/assets/fdd38e4b-772a-4c0f-8a56-0f0fb2623dea" />
-<img  alt="image" src="https://github.com/user-attachments/assets/640d6eb7-b01d-42b6-8397-21142caedaec" />
+![screenshot](run app in bash.png) 
 
 
 ---
@@ -113,6 +107,7 @@ Project-Node.js/
 This project is licensed under the MIT License.
 
 ```
+
 
 
 
