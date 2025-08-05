@@ -13,6 +13,10 @@ It allows users to check current weather information for any city using the **Op
 
 ![screenshot](commond.png) 
 
+![screenshot](output1.png) 
+
+![screenshot](output2.png) 
+
 ---
 
 ## 🔧 Features
@@ -108,6 +112,7 @@ Project-Node.js/
 This project is licensed under the MIT License.
 
 ```
+
 
 
 
