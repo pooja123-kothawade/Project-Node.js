@@ -9,7 +9,7 @@ It allows users to check current weather information for any city using the **Op
 ---
 
 ## 📸 Preview
-![screenshot](run app in bash.png) 
+![screenshot](commond.png) 
 
 
 ---
@@ -107,6 +107,7 @@ Project-Node.js/
 This project is licensed under the MIT License.
 
 ```
+
 
 
 
