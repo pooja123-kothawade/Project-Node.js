@@ -7,8 +7,9 @@ This is a basic Weather App built using **Node.js**, **Express**, and **Axios**.
 It allows users to check current weather information for any city using the **OpenWeatherMap API**.
 
 ---
-
+```
 ## 📸 Preview
+
 ![screenshot](commond.png) 
 
 ```
@@ -107,6 +108,7 @@ Project-Node.js/
 This project is licensed under the MIT License.
 
 ```
+
 
 
 
