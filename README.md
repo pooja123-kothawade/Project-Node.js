@@ -1,6 +1,4 @@
----
 
-### ✅ `README.md` content:
 
 ````markdown
 # 🌦️ Simple Weather App (Node.js + Express)
@@ -112,4 +110,5 @@ Project-Node.js/
 This project is licensed under the MIT License.
 
 ```
+
 
