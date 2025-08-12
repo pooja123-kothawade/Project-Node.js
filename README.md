@@ -3,8 +3,9 @@
 ````markdown
 # 🌦️ Simple Weather App (Node.js + Express)
 
-This is a basic Weather App built using **Node.js**, **Express**, and **Axios**.  
-It allows users to check current weather information for any city using the **OpenWeatherMap API**.
+This is a basic Weather App built using **Node.js**, **Express**, **Axios**, and **MongoDB**.  
+It allows users to check current weather information for any city using the **OpenWeatherMap API**, and also view the last 10 search results stored in MongoDB.
+
 
 ---
 ````
@@ -17,6 +18,9 @@ It allows users to check current weather information for any city using the **Op
 
 ![screenshot](output2.png) 
 
+<img width="1364" height="724" alt="output3" src="https://github.com/user-attachments/assets/c0c2afcd-3c3f-4040-9f86-7be34883b76b" />
+
+
 ---
 
 ## 🔧 Features
@@ -27,10 +31,11 @@ It allows users to check current weather information for any city using the **Op
   - Weather condition (e.g. sunny, cloudy)
   - Humidity
   - Wind speed
+- Stores search history in MongoDB.
+- View last 10 searches in a simple HTML table via `/history-page`.
 - Error handling for invalid city names.
 - Clean and basic CSS styling.
 - Frontend served using Express.
-
 ---
 
 ## 🛠️ Tech Stack
@@ -38,9 +43,10 @@ It allows users to check current weather information for any city using the **Op
 - Node.js
 - Express.js
 - Axios
-- HTML + CSS (very basic)
+- MongoDB + Mongoose
+- HTML + CSS 
 - OpenWeatherMap API
-
+  
 ---
 
 ## 🚀 How to Run Locally
@@ -64,9 +70,11 @@ Create a `.env` file in the root folder:
 
 ```env
 API_KEY=your_openweathermap_api_key_here
+MONGODB_URI=your_mongodb_connection_string_here
 ```
 
-> You can get a free API key by signing up at [OpenWeatherMap](https://openweathermap.org/api)
+> You can get a free API key by signing up at [OpenWeatherMap](https://openweathermap.org/api)  
+> For MongoDB, you can either [install locally](https://www.mongodb.com/try/download/community) or use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 
 ### 4. Run the app
 
@@ -74,7 +82,11 @@ API_KEY=your_openweathermap_api_key_here
 node app.js
 ```
 
-Visit: `http://localhost:3000`
+Visit:  
+- `http://localhost:3000` → Search weather  
+- `http://localhost:3000/history-page` → View last 10 searches
+
+---
 
 ---
 
@@ -109,7 +121,8 @@ Project-Node.js/
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is owned by Pooja Mahendra Kothawade
 
 ```
+
 
